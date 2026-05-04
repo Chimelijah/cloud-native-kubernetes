@@ -12,4 +12,4 @@ Provisioned an Amazon Elastic Kubernetes Service (EKS) cluster from scratch util
 * Documentation of technical workflows for architectural clarity.
 
 ---
-*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01)*
+*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01/launch-a-kubernetes-cluster-f9e8ccdb8629)*

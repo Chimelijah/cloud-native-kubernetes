@@ -1,0 +1,20 @@
+# Update the system
+sudo yum update -y
+
+# Install aws-cli (if not pre-installed)
+sudo yum install -y aws-cli
+
+# Verify AWS configuration using the attached IAM role
+aws sts get-caller-identity
+aws s3 ls
+
+# Install kubectl
+1.     curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+2.     chmod +x kubectl
+3.     sudo mv kubectl /usr/local/bin/
+4.     kubectl version --client
+
+# Install eksctl (Download and move to a directory in your PATH)
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+sudo mv /tmp/eksctl /usr/local/bin
+eksctl version

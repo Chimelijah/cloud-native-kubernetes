@@ -12,4 +12,4 @@ Packaged a locally developed Python RAG API into a Docker container to ensure st
 * Documentation of technical workflows for architectural clarity.
 
 ---
-*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01)*
+*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01/containerize-a-rag-api-with-docker-857057f3296a)*

@@ -12,4 +12,4 @@ Authored manifests to pull images from AWS ECR and deploy scalable pods exposed 
 * Documentation of technical workflows for architectural clarity.
 
 ---
-*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01)*
+*Detailed write-up available on [Medium](https://medium.com/@elijahchimera01/create-kubernetes-manifests-4947b76f3648)*
